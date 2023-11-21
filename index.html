@@ -1,8 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Abdulkadir
 -->
 <html>
 	<head>
@@ -13,6 +11,12 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="shortcut icon" type="image/xicon" href="af2.jpg">
 	</head>
+	<style>
+        .custom-padding {
+            padding-left: 20px;  /* Adjust the left padding as needed */
+            padding-right: 20px; /* Adjust the right padding as needed */
+        }
+    </style>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -20,7 +24,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Abdulkadir</strong> <span>2021</span></a>
+						<a href="index.html" class="logo"><strong>Abdulkadir</strong> <span>2023</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -31,9 +35,10 @@
 					<ul class="links">
 
 							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Projects</a></li>
-							<li><a href="#two">About Me</a></li>
-							<li><a href="#three">Contact</a></li>
+							<li><a href="#one">Work</a></li>
+							<li><a href="#two">Projects</a></li>
+							<li><a href="#three">About Me</a></li>
+							<li><a href="#four">Contact</a></li>
 
 				</ul>
 				</nav>
@@ -51,7 +56,7 @@
 								Welcome to my website!</p>
 								<ul class="actions">
 									<li><a href="#one" class="button next scrolly">Projects</a></li>
-									<li><a href="Abdulkadir2021ResumeJan (1).pdf" target="_blank" class="button">Resume</a></li>
+									<li><a href="Abdulkadir_Ahmed_Resume_V34.pdf" target="_blank" class="button">Resume</a></li>
 								</ul>
 							</div>
 						</div>
@@ -60,17 +65,85 @@
 				<!-- Main -->
 					<div id="main">
 
+						<!-- Experience -->
+					<section id="one" class="wrapper style2 spotlights">
+						<!-- Snap Inc. -->
+						<section class="">
+							<a href="#" class="image" style="background-image: url('SnapGif.gif'); background-position: center center;"></a>
+							<div class="content">
+								<div class="inner">
+									<h1>Snap Inc.</h1>
+									<h2>Software Engineer Intern | Summer 2023</h2>
+									<ul class="specific-list">
+										<li>Spearheaded the design and implementation of a cross-functional Feedback Loop mechanism, leveraging Android Studio & Flipper.</li>
+										<li>Strategically optimized an SQL table index, reducing large table scans by more than 20%, significantly boosting query execution speed
+											and reducing ad delivery failures reported by clients by 38%.</li>
+										<li>Integrated RxJava computational methods and DynamoDB to systematically collect, analyze and automate data solutions on ad delivery
+											failures in Kotlin - achieving a 12% improvement in ad engagement.</li>
+										<li>Introduced a TensorFlow intent classifier model to handle over 3 million corrupted Ads per day in the Ad Delivery database.</li>
+										<li>Designed Looker alarms and custom real-time Graphene dashboards to monitor performance and gain valuable insights - successfully
+											debugged, and documented complex issues using these monitors and metrics.</li>
+									</ul>
+									<ul class="actions">
+										<!-- <li><a href="snap-details.html" class="button">Learn more</a></li> -->
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<!-- AMD -->
+						<section class="">
+							<a href="#" class="image" style="background-image: url('amd.png'); background-position: center top;"></a>
+							<div class="content">
+								<div class="inner">
+									<h1>AMD</h1>
+									<h2>Software Engineer Intern | Summer 2022 - Winter 2023</h2>
+									<ul class="specific-list">
+										<li>Worked closely with Jenkins to automate CI/CD pipelines for code deployment speeding up delivery processes by 75%.</li>
+										<li>Developed an automated code linting bot that incorporates code linting tools with a 14% increase in accuracy on Git and Gerrit.</li>
+										<li>Migrated to the Elastic stack to improve availability, reliability, and scalability of logs by using Filebeat, Foreman, and Logstash.</li>
+										<li>Automated and optimized processes using coordination and containerization tools, like Jenkins, Docker, and Kubernetes.</li>
+										<li>Instrumented existing Python and NodeJS applications using OpenTelemetry API and SDK to export metrics & traces to improve speed of software delivery processes by 70%.</li>
+									</ul>
+									<ul class="actions">
+										<!-- <li><a href="amd-details.html" class="button">Learn more</a></li> LEARM MORE BTN-->
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<!-- Toronto Metropolitan University -->
+						<section class="">
+							<a href="#" class="image" style="background-image: url('tmu.jpeg'); background-position: center center;"></a>
+							<div class="content">
+								<div class="inner">
+									<h1>Toronto Metropolitan University</h1>
+									<h2>Data Research Assistant Developer | Summer 2022 - Winter 2023</h2>
+									<ul class="specific-list">
+										<li>Built HTML-parsing Python web scrapers with Selenium/BeautifulSoup to gather job-posting data from 300,000 search queries.</li>
+										<li>Leveraged Python’s Panda and NumPy libraries to clean data from Data Frames removing over 1 million rows of duplicates.</li>
+										<li>Designed a lab website using CSS and Javascript. - reduced load time by 45% by adding browser caching & image compression.</li>
+									</ul>
+									<ul class="actions">
+										<!-- <li><a href="tmu-details.html" class="button">Learn more</a></li> LEARN MORE BTN-->
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+																
+
 						<!-- One -->
-							<section id="one" class="tiles">
+							<section id="two" class="tiles">
 								<article>
 									<span class="image">
 										<img src="Ace.jpeg" alt="" />
 									</span>
 									<header class="major">
-										<h3>Blackjack Game</h3>
-										<p>A Blackjack game on Java with a card shuffle and a generated API.</p>
+										<h3>SkribbleGuess</h3>
+										<p>multiplayer drawing application that teaches kids new words in a fun and interactive way. Built using ReactJS, Javascript, HTML, CSS and SocketIO-Client for the front-end, NodeJS, websockets / SocketIO for the back-end</p>
 										<br></br>
-										<li><a href="https://github.com/abdulka6ir/BlackJackGame/tree/main/src/coe318/lab5" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+										<li><a href="https://devpost.com/software/skribbleguess" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 									</header>
 								</article>
 								<article>
@@ -100,37 +173,32 @@
 										<img src="unit.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3>2D Action Game</h3>
-										<p>A 2D game with characters that can move in an environment and shoot projectiles using Unity and C#.
-											Utilizes Photoshop and emulates the theme of COVID-19.
+										<h3>Client Store Application</h3>
+										<p>E-Commerce storefront web application with SQL and React. Functionality for both Admin and customers
 										</p>
 										<br></br>
-										<a rel="tooltip" data-placement="top" title="" href="#" target="_blank" data-original-title="Coming Soon"><i class="fas fa-external-link-alt" aria-hidden="true"></i></a>							
+										<li><a href="https://github.com/Akhamis01/E-Commerce-Storefront" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 									</header>
 								</article>
 
 						<!-- Two -->
-							<section id="two">
-								<div class="inner">
-									<header class="major">
-										<h2>About me</h2>
-									</header>
-									<p>Hi I'm Abdulkadir, a Canadian sophmore Computer Engineering student at Ryerson University in Toronto, Ontario.</p>
-										
-										<p>My interests lies in software development, computational science and algorithms. I hope I am able to incorporate some of these into something that is sustainable and productive in the industry.</p>
-										
-										<p>Growing up, I loved watching things that explored these various topics. As absurd as it may sound, my interests have been heavily influenced from popular movies and games such as The Matrix and The Legend of Zelda: Breath of the Wild.</p>
-										
-										<p>I have a pretty broad range of experience, ranging from student leadership, software development, and research. Feel free to contact me to connect :).</p>
-									<ul class="actions">
-									</ul>
-								</div>
-							</section>
-
+						<section id="three" class="custom-padding">
+							<div class="inner">
+								<header class="major">
+									<h2>About me</h2>
+								</header>
+								<p>Hi I'm Abdulkadir, a Computer Engineering student at Toronto Metropolitan University in Toronto, Ontario.</p>
+								<p>Interested in Mobile development, Distributed Systems and Backend Architecture.</p>
+								<p>Growing up, I loved watching things that explored these concepts. As absurd as it may sound, my interests have been heavily influenced from popular movies and games such as The Matrix, Cowboy Bebop and The Legend of Zelda: Breath of the Wild.</p>
+								<p>I have a pretty broad range of experience, ranging from software engineering internships, to research. Feel free to contact me to connect :).</p>
+								<ul class="actions">
+								</ul>
+							</div>
+						</section>
 					</div>
 
 				<!-- Contact -->
-					<section id="three">
+					<section id="four">
 						<div class="inner">
 							<section>
 								<form method="post" action="#">
@@ -189,7 +257,7 @@
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="https://twitter.com/abdulka6ir" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<!-- <li><a href="https://twitter.com/abdulka6ir" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
 								<li><a href="https://github.com/abdulka6ir?tab=repositories" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								<li><a href="https://www.linkedin.com/in/abdulkadirfiqi/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
